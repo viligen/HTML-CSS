@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Courgette, cursive;
+    padding: 5rem 8rem;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+main {
+    display: flex;
+    /* gap: 1rem; */
+    align-items: center;
+    text-align: center;
+    width: 60vw;
+    justify-content: space-between;
+    margin: auto
+    
+}
+header{
+    position: relative;
+}
+section {
+    position: relative;
+    width: 30%;
+    height: 40vh;
+    border-radius: 0.6rem;
+    background-color: white;
+}
+header h1 {
+    line-height: 1;
+    font-weight: 500;
+    font-size: 2.4rem;
+    letter-spacing: 1.5px;
+}
+header h2 {
+    position: relative;
+    font-size: 1.2rem;
+    line-height: 1;
+    color: #cb2027;
+    letter-spacing: 2.5px;
+    left:5rem;
+    bottom: 1rem;
+}
+section h3{
+    font-size: 1.3rem;
+    padding-bottom: 0px;
+    margin-bottom: 1px;
+}
+section div.img-wrapper {
+    position: relative;
+    width: 100%;
+    height: 45%;
+    overflow: hidden;
+    border-top-left-radius: 0.6rem;
+    border-top-right-radius: 0.6rem;
+
+}
+section div.img-wrapper img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+p.devider {
+    height: 1px;
+    border: 1px solid #cb2027;
+    /* margin-left:1rem;
+    margin-right:1rem; */
+}
+p.text{
+    font-size: 0.9rem;
+}
+div.bottom-link {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 0.3rem;
+    font-size: 0.9rem;
+}
+div.bottom-link a {
+    border-radius: 100%;
+    background-color: #cb2027;
+    padding: 0.05rem 0.2rem;
+    font-size: 0.7rem;
+    color: white;
+    font-weight: 800;
+    text-decoration: none;
+    margin-left: 2px;
+}
+ div.info {
+    padding-left: 10px;
+    padding-right: 10px;
+ }
