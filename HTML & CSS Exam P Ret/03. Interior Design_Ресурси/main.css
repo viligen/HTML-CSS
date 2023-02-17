@@ -1,0 +1,188 @@
+@import url('reset.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --clr-primary: #e24e2a;
+    --clr-grey: #ececec;
+    --clr-grey-dark: #3f3f3f;
+    --clr-grey-text: #575652;
+    --clr-grey-bg: #383838;
+    --clr-green: #1b9772;
+    --clr-green-text: #3aa483;
+    --clr-green-link: #8ec2aa;
+    --clr-white: #fff;
+
+    --header-height: 66px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0 80px;
+}
+h1,
+h3 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 2.5rem;
+}
+h1 {
+    font-size: 2rem;
+    background-color: transparent;
+}
+h2 {
+    width: 8rem;
+    font-weight: 400;
+    font-size: 1rem;
+    border-top: 2px solid white;
+    background-color: transparent;
+}
+h3 {
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+header {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    object-fit: cover;
+    z-index: -1;
+}
+div.logo {
+    width: 13rem;
+    height: 10rem;
+    border: 1px solid rgb(137, 136, 136);
+    padding: 1rem;
+    box-shadow: 15px 25px 15px rgb(62, 61, 61);
+    margin: 1.5rem 2rem 0 2rem;
+    background-color: transparent;
+}
+header p {
+    justify-content: right;
+    width: 18rem;
+    border: 1px solid rgb(137, 136, 136);
+    padding: 1rem;
+    box-shadow: 15px 25px 15px rgb(62, 61, 61);
+    align-items: flex-end;
+    justify-items: end;
+    text-align: right;
+    color: white;
+    background: rgb(156, 146, 138);
+    background: linear-gradient(
+        90deg,
+        rgba(156, 146, 138, 1) 0%,
+        rgba(206, 203, 201, 1) 67%,
+        rgba(202, 200, 199, 1) 99%
+    );
+    text-shadow: 1px 1px 2px rgb(55, 54, 54);
+    text-align: end;
+    margin-left: auto;
+    margin-right: 1.5rem;
+}
+header span {
+    font-size: 1rem;
+    color: #8d8581;
+    display: inline-block;
+    justify-self: end;
+    padding: unset;
+    font-weight: 800;
+
+    margin-left: 90%;
+}
+main {
+    position: relative;
+    height: auto;
+    overflow: hidden;
+}
+section {
+    padding: 2rem 3rem;
+    background-color: #f2f0f3;
+    width: 75%;
+    overflow: hidden;
+    height: auto;
+}
+
+section.services p {
+    margin-bottom: 20px;
+}
+section.services p span {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+section.services p i {
+    font-weight: 600;
+    margin-right: 0.8rem;
+}
+
+section.contact h3 {
+    margin-bottom: 0px;
+}
+section.contact .divider {
+    width: 2000px;
+    border-bottom: 2px solid black;
+    position: relative;
+    left: -100px;
+    right: +100px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+section.contact span {
+    margin-right: 1.6rem;
+}
+section.contact p {
+    margin-bottom: 0.6rem;
+}
+section.contact b {
+    font-style: italic;
+}
+
+section.contact input {
+    width: 18rem;
+    height: 2rem;
+    font-size: 0.7rem;
+    padding: 8px 15px;
+    background-color: #bab1ad;
+    border-radius: 4px;
+    border: unset;
+}
+section.contact input::placeholder {
+    color: white;
+}
+section.contact button {
+    padding: 3px 15px;
+    font-size: 0.7rem;
+    height: 2rem;
+    border: unset;
+    color: white;
+    background-color: #67784d;
+    border-radius: 4px;
+}
+
+aside {
+    width: 25%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: #bab1ad;
+    height: 68.4vh;
+    padding: 2rem 1.5rem;
+}
+aside p.big {
+    color: white;
+    font-size: 5rem;
+    font-weight: 200;
+    line-height: 1;
+}
+aside p.small {
+    color: #5b401e;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
